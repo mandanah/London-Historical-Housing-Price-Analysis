@@ -9,7 +9,7 @@ jobs:
     - run: echo "This job is now runnning on a ${{runner.os}} server hosted by Github"
     - run: echo "The name of your branch us ${{github.ref}} and you repository is ${{github.repository}}."
     - name: Checkout reporitory code
-      uses: actions/checkout@4
+      uses: actions/checkout@v4
     - run: echo " The ${{github.repository}} has been cloned to the runner."
     - run: echo "The workflow is now ready to test your code"
     - name: List of files in th repository
